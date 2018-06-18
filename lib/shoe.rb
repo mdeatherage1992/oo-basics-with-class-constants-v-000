@@ -12,8 +12,8 @@ BRANDS = []
   end
   def brands=(brands)
     @brands = brands
-    if BRANDS.exclude? brands
     BRANDS << brands
+    BRANDS.uniq
   end
 end
 end
