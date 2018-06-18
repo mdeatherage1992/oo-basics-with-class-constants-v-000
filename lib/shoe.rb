@@ -15,4 +15,3 @@ BRANDS = []
     BRANDS << brands
 end
 end
-end
