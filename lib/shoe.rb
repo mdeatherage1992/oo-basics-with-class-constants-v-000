@@ -8,8 +8,6 @@ BRANDS = []
     BRANDS & BRANDS
   end
 end
-end
-end
 
   def cobble
     self.condition = "new"
