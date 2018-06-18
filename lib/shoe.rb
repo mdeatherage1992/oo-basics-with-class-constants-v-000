@@ -12,4 +12,5 @@ def initialize(brand)
   end
   def brand_preservation(BRANDS)
     return BRANDS.uniq
+  end
 end
