@@ -4,6 +4,7 @@ class Shoe
 BRANDS = []
 def initialize(brand)
     @brand = brand
+    if @brand != BRANDS[key]
     BRANDS << brand
   end
   def cobble
