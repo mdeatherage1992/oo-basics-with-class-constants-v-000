@@ -13,8 +13,6 @@ BRANDS = []
   def brands=(brands)
     @brands = brands
     BRANDS << brands
-    BRANDS = BRANDS.uniq
-  end
 end
 end
 end
