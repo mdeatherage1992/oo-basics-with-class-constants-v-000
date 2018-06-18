@@ -5,7 +5,6 @@ BRANDS = []
 def initialize(brand)
     @brand = brand
     BRANDS << brand
-    brand_preservation(BRANDS)
   end
   def cobble
     self.condition = "new"
