@@ -9,5 +9,8 @@ class Book
   def turn_page
     puts "Flipping the page...wow, you read fast!"
   end
+  def genre 
+    all_genres = []
+    all_genres.push(@genre)
 
 end
