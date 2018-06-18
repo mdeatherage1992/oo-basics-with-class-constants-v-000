@@ -9,7 +9,6 @@ def initialize(brand)
   if BRANDS.include? brand
     BRANDS = BRANDS.uniq
   end
-end
   def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
