@@ -4,7 +4,8 @@ class Shoe
 BRANDS = []
 def initialize(brand)
     @brand = brand
-    if BRANDS =! brand
+    BRANDS.each do |brand|
+      if BRANDS.exclude? brand
     BRANDS << brand
   end
 end
