@@ -2,9 +2,9 @@ class Shoe
   attr_accessor :color, :size, :material, :condition
   attr_reader :brand
 BRANDS = []
-def initialize(brand,key)
+def initialize(brand)
     @brand = brand
-    if BRANDS[key] =! brand
+    if BRANDS =! brand
     BRANDS << brand
   end
 end
