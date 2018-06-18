@@ -12,7 +12,7 @@ BRANDS = []
   end
   def brands=(brands)
     @brands = brands
-    if !BRANDS.indclude? brands
+    if BRANDS.exclude? brands
     BRANDS << brands
   end
 end
