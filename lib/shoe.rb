@@ -10,5 +10,9 @@ class Shoe
     self.condition = "new"
     puts "Your shoe is as good as new!"
   end
-
+  def brands=(brands)
+    @brands = brands
+    if !BRANDS.indclude? brands
+    BRANDS << brands
+  end
 end
