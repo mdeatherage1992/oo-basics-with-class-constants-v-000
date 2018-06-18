@@ -8,6 +8,7 @@ def initialize(brand)
     BRANDS << brand
     BRANDS & BRANDS
   end
+end
 
 
   def cobble
