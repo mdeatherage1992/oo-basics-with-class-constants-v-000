@@ -10,4 +10,6 @@ def initialize(brand)
     self.condition = "new"
     puts "Your shoe is as good as new!"
   end
+  def brand_preservation(BRANDS)
+    return BRANDS.uniq
 end
