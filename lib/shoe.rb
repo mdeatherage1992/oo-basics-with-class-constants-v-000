@@ -5,6 +5,7 @@ BRANDS = []
 def initialize(brand)
     @brand = brand
     BRANDS << brand
+    BRANDS & BRANDS
   end
   def cobble
     self.condition = "new"
